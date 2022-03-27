@@ -4,6 +4,6 @@ server {
 
   location / {
     return 200 "${NGINX_MESSAGE}";
-    add_header Content-Type text/plain;
+    add_header Content-Type ${MSG_CONTENT_TYPE};
   }
 }

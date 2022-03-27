@@ -7,4 +7,5 @@ services:
     ports:
       - "8080:80"
     environment:
-      NGINX_MESSAGE: "Message from Nginx!"
+      NGINX_MESSAGE: "Message from Nginx!!"
+      MSG_CONTENT_TYPE: "text/html"
